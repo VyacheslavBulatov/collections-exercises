@@ -1,6 +1,6 @@
-package ru.vbolokhov.collections;
+package ru.vbolokhov.collections.list;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+import ru.vbolokhov.collections.NotImplementedException;
 
 /**
  * @author Vadim Bolokhov
@@ -12,6 +12,10 @@ public class SimpleArrayList<T> {
     }
 
     public void add(int index, T element) {
+        throw new NotImplementedException();
+    }
+
+    public T get(int index) {
         throw new NotImplementedException();
     }
 
